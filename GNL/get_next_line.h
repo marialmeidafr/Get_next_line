@@ -21,6 +21,12 @@
 # include <stdio.h>
 # include <unistd.h>
 
+char	*ft_strchr(char *s, int c);
+char	*ft_strjoin(char *s1, char *s2);
+int		ft_strlen(const char *str);
 char	*get_next_line(int fd);
+char	*ft_read_save(int fd, char *buffer);
+char	*ft_get_line(char *buffer);
+char	*ft_clean_stash(char *buffer);
 
 #endif
